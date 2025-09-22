@@ -6,7 +6,16 @@ function App() {
     const [key, setKey] = useState("");
 
     function check() {
-        alert("Das Password ist: " + key);
+        if (key && key.trim() !== "") {
+            alert("Das Password ist: " + key);
+        } else {
+            alert("Das Passwordfeld ist leer");
+        }
+    }
+
+    function clear() {
+        document.getElementById("key").value = "";
+        setKey("");
     }
 
     return (
@@ -25,14 +34,26 @@ function App() {
                     />
                 </div>
 
-                <div className="row-three">
-                    <button
-                        className="button-check"
-                        id="button-check"
-                        onClick={check}>
-                        Check
-                    </button>
+                <div className="buttons">
+                    <div className="row-three">
+                        <button
+                            className="button-clear"
+                            id="button-clear"
+                            onClick={clear}>
+                            Clear
+                        </button>
+                    </div>
+
+                    <div className="row-three">
+                        <button
+                            className="button-check"
+                            id="button-check"
+                            onClick={check}>
+                            Check
+                        </button>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
