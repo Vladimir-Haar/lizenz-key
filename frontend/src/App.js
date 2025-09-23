@@ -2,29 +2,40 @@ import React, {useState} from 'react';
 import './App.css';
 
 function App() {
-
+    const _apiBase = "http://localhost:8080/api/lizenz/pruefen";
     const [key, setKey] = useState("");
+    const [message, setMessage] = useState("");
 
     function check() {
-        if (key && key.trim() !== "") {
-            alert("Das Password ist: " + key);
-        } else {
-            alert("Das Passwordfeld ist leer");
-        }
+        fetch(_apiBase, {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({lizenzschluessel: key})
+        })
+            .then(res => {
+                if (!res.ok) throw new Error("Serverfehler");
+                return res.json();
+            })
+            .then(data => {
+                setMessage(data.message);
+                setMessage(data.meldung);
+                console.log(message);
+            })
+            .catch(err => setMessage("Fehler beim Prüfen!"));
     }
 
     function clear() {
-        document.getElementById("key").value = "";
         setKey("");
+        setMessage("");
     }
 
     return (
         <div className="App">
-            <h1>Check license key</h1>
+            <h1>Prüfung des Schlüssels</h1>
             <div className="row-one">
 
                 <div className="row-two">
-                    <label htmlFor="key">Please enter your key: </label>
+                    <label htmlFor="key">Bitte Lizenzschlüssel eingeben: </label>
                     <br/>
                     <input
                         type="text"
@@ -35,11 +46,7 @@ function App() {
                 </div>
 
                 <div className="output">
-                    <label
-                        htmlFor="output"
-                        id="output"
-                        value={""}
-                    ></label>
+                    <p id="output">{message}</p>
                 </div>
 
                 <div className="buttons">
@@ -48,7 +55,7 @@ function App() {
                             className="button-clear"
                             id="button-clear"
                             onClick={clear}>
-                            Clear
+                            Leeren
                         </button>
                     </div>
 
@@ -57,7 +64,7 @@ function App() {
                             className="button-check"
                             id="button-check"
                             onClick={check}>
-                            Check
+                            Prüfen
                         </button>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 package com.backend.model;
 
-public class LoginTestTemplate {
+public class LizenzTestTemplate {
     private String key;
 
     public String getKey() {
