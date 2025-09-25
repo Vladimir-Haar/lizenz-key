@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Frontend und Backend sind komplett fertig.">
-      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/model/Result.java" afterDir="false" />
+    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/BackgroundApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/BackgroundApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LoginTestLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/model/LoginTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/model/LizenzTestTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/model/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
@@ -55,38 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.BackgroundApplicationTests.contextLoads.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BackgroundApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.40574712",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BackgroundApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BackgroundApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VladHa/OneDrive/Java/Projekte_Java/lizenz-key&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -139,7 +137,15 @@
       <workItem from="1758569372044" duration="46000" />
       <workItem from="1758569426209" duration="12834000" />
       <workItem from="1758605407682" duration="463000" />
-      <workItem from="1758605935767" duration="17909000" />
+      <workItem from="1758605935767" duration="19367000" />
+      <workItem from="1758718340100" duration="1859000" />
+      <workItem from="1758731112100" duration="37000" />
+      <workItem from="1758732284043" duration="56000" />
+      <workItem from="1758734789269" duration="258000" />
+      <workItem from="1758785713877" duration="855000" />
+      <workItem from="1758787284567" duration="2000" />
+      <workItem from="1758787294211" duration="218000" />
+      <workItem from="1758787575996" duration="6653000" />
     </task>
     <task id="LOCAL-00001" summary="Habe befor mit dem SpringBoot angefangen, alle in frontend Ordner eingefügt.">
       <option name="closed" value="true" />
@@ -173,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758607330130</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden.">
+      <option name="closed" value="true" />
+      <created>1758624571908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758624571908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +208,7 @@
     <MESSAGE value="Habe befor mit dem SpringBoot angefangen, alle in frontend Ordner eingefügt." />
     <MESSAGE value="Frontend und Backend zum Teil schon fertig." />
     <MESSAGE value="Frontend und Backend sind komplett fertig." />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend und Backend sind komplett fertig." />
+    <MESSAGE value="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden." />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden." />
   </component>
 </project>

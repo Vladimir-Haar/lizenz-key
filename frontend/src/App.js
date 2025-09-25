@@ -31,9 +31,9 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Prüfung des Schlüssels</h1>
-            <div className="row-one">
 
+            <div className="row-one">
+                <h1>Prüfung des Schlüssels</h1>
                 <div className="row-two">
                     <label htmlFor="key">Bitte Lizenzschlüssel eingeben: </label>
                     <br/>

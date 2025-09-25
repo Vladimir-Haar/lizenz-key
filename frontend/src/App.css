@@ -1,5 +1,6 @@
 
 .App {
+    align-content: center;
     text-align: center;
     width: 100%;
     height: 96.5vh;
@@ -13,10 +14,13 @@
 }
 
 .row-one {
-
+    margin: 30px auto;
     border: 1px solid #ffffff;
     width: 30%;
-
+    min-width: 240px;
+    min-height: 230px;
+    height: 400px;
+    width: 380px;
     border-radius: 10px;
     display: inline-block;
     padding: 15px;
@@ -31,11 +35,13 @@
 .output{
     margin: 15px;
     color: #000000;
+    margin: 55px;
+    height: 50px;
 }
 
 .button-check  {
     background-color: #4CAF50;
-    width: 100px;
+    width: 120px;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -48,7 +54,7 @@
 
 .button-clear  {
     background-color: #4CAF50;
-    width: 100px;
+    width: 120px;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -79,4 +85,5 @@ input[type="text"] {
 .buttons{
     display: grid;
     grid-template-columns: auto auto;
+    padding-top: 20px;
 }

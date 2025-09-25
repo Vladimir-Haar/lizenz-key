@@ -7,6 +7,14 @@ public class Result {
     public Result() {
     }
 
+    public boolean isGueltig() {
+        return gueltig;
+    }
+
+    public String getMeldung() {
+        return meldung;
+    }
+
     public Result(boolean gueltig, String meldung) {
         this.gueltig = gueltig;
         this.meldung = meldung;
