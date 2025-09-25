@@ -13,6 +13,7 @@
     padding-top: 10px;
 }
 
+
 .row-one {
     margin: 30px auto;
     border: 1px solid #ffffff;
@@ -74,6 +75,7 @@
 }
 
 input[type="text"] {
+    text-align: center;
     padding: 8px;
     width: 200px;
     margin-top: 5px;

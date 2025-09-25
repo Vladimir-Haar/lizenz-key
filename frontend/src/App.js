@@ -1,13 +1,28 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 
 function App() {
     const _apiBase = "http://localhost:8080/api/lizenz/pruefen";
     const [key, setKey] = useState("");
     const [message, setMessage] = useState({
-        gueltig: "",
+        gueltig:"",
         meldung:""
     });
+    const[farbe, setFarbe] = useState("white")
+
+    function probe() {
+        if (message.gueltig === true) {
+            setFarbe("green");
+        } else if(message.gueltig ===""){
+            setFarbe("white")
+        } else {
+            setFarbe("red");
+        }
+    }
+
+    useEffect(() => {
+        probe();
+    }, [message.gueltig])
 
     function check() {
         fetch(_apiBase, {
@@ -27,20 +42,22 @@ function App() {
 
             })
             .catch(err => setMessage({
-                gueltig: "dalse",
+                gueltig: "false",
                 meldung: "Fehler beim Prüfen!"
             }));
+
     }
 
     function clear() {
         setKey("");
         setMessage({ gueltig: "", meldung: "" });
+        setFarbe("white")
     }
 
     return (
         <div className="App">
 
-            <div className="row-one">
+            <div className="row-one" style={{border: `3px solid ${farbe}`}}>
                 <h1>Prüfung des Schlüssels</h1>
                 <div className="row-two">
                     <label htmlFor="key">Bitte Lizenzschlüssel eingeben: </label>
