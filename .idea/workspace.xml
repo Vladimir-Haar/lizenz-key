@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/model/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {

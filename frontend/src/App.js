@@ -4,7 +4,10 @@ import './App.css';
 function App() {
     const _apiBase = "http://localhost:8080/api/lizenz/pruefen";
     const [key, setKey] = useState("");
-    const [message, setMessage] = useState("");
+    const [message, setMessage] = useState({
+        gueltig: "",
+        meldung:""
+    });
 
     function check() {
         fetch(_apiBase, {
@@ -17,16 +20,21 @@ function App() {
                 return res.json();
             })
             .then(data => {
-                setMessage(data.message);
-                setMessage(data.meldung);
-                console.log(message);
+                setMessage({
+                    gueltig: data.gueltig,
+                    meldung: data.meldung
+                });
+
             })
-            .catch(err => setMessage("Fehler beim Prüfen!"));
+            .catch(err => setMessage({
+                gueltig: "dalse",
+                meldung: "Fehler beim Prüfen!"
+            }));
     }
 
     function clear() {
         setKey("");
-        setMessage("");
+        setMessage({ gueltig: "", meldung: "" });
     }
 
     return (
@@ -46,7 +54,7 @@ function App() {
                 </div>
 
                 <div className="output">
-                    <p id="output">{message}</p>
+                    <p id="output">{message.meldung}</p>
                 </div>
 
                 <div className="buttons">
