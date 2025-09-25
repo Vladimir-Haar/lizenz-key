@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Const Variable verändert. An vielen Stellen die Variablen Werte angepasst.">
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/ProgrammBild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758624571908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Const Variable verändert. An vielen Stellen die Variablen Werte angepasst.">
+      <option name="closed" value="true" />
+      <created>1758802214707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758802214707</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +214,7 @@
     <MESSAGE value="Frontend und Backend zum Teil schon fertig." />
     <MESSAGE value="Frontend und Backend sind komplett fertig." />
     <MESSAGE value="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden." />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden." />
+    <MESSAGE value="Const Variable verändert. An vielen Stellen die Variablen Werte angepasst." />
+    <option name="LAST_COMMIT_MESSAGE" value="Const Variable verändert. An vielen Stellen die Variablen Werte angepasst." />
   </component>
 </project>
