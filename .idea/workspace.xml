@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="README angepasst.">
+    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Farben für true und false angepasst. Sobald true ist, wird grün umgerammt. Wenn, true dann rot sonst wenn leer ist, dann weiß.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/logic/LizenzTestLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +144,8 @@
       <workItem from="1758787284567" duration="2000" />
       <workItem from="1758787294211" duration="218000" />
       <workItem from="1758787575996" duration="6653000" />
+      <workItem from="1758880923998" duration="1573000" />
+      <workItem from="1758882505441" duration="4496000" />
     </task>
     <task id="LOCAL-00001" summary="Habe befor mit dem SpringBoot angefangen, alle in frontend Ordner eingefügt.">
       <option name="closed" value="true" />
@@ -201,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758802455444</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Farben für true und false angepasst. Sobald true ist, wird grün umgerammt. Wenn, true dann rot sonst wenn leer ist, dann weiß.">
+      <option name="closed" value="true" />
+      <created>1758805743208</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758805743208</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +235,7 @@
     <MESSAGE value="Frontend, Backend und Api ist fertig. Es muss noch Unit Test erstellt werden." />
     <MESSAGE value="Const Variable verändert. An vielen Stellen die Variablen Werte angepasst." />
     <MESSAGE value="README angepasst." />
-    <option name="LAST_COMMIT_MESSAGE" value="README angepasst." />
+    <MESSAGE value="Farben für true und false angepasst. Sobald true ist, wird grün umgerammt. Wenn, true dann rot sonst wenn leer ist, dann weiß." />
+    <option name="LAST_COMMIT_MESSAGE" value="Farben für true und false angepasst. Sobald true ist, wird grün umgerammt. Wenn, true dann rot sonst wenn leer ist, dann weiß." />
   </component>
 </project>
