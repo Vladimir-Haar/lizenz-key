@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Datenbank angelegt. Entity und Property Ordner erstellt. Pom Datei mit allen Abhängigkeiten versorgt.">
-      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKeyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKeyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a4e319e-ef77-482b-aaef-e37eb5b8f2ec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a4e319e-ef77-482b-aaef-e37eb5b8f2ec/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a4e319e-ef77-482b-aaef-e37eb5b8f2ec/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a4e319e-ef77-482b-aaef-e37eb5b8f2ec/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a4e319e-ef77-482b-aaef-e37eb5b8f2ec/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+    <list default="true" id="0afed7a7-9de4-47b1-8fbf-904633785915" name="Changes" comment="Das zweite teil des Programms ist fertig. Alles funktioniert.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/background/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/controller/LizenzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/entitysql/KeyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/repository/KeyTestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/background/src/main/java/com/backend/LicenseKey/LicenseKeyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +157,8 @@
       <workItem from="1759323385176" duration="1469000" />
       <workItem from="1759325004114" duration="2213000" />
       <workItem from="1759383157097" duration="16821000" />
-      <workItem from="1759492244522" duration="13090000" />
+      <workItem from="1759492244522" duration="13867000" />
+      <workItem from="1759727799128" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Habe befor mit dem SpringBoot angefangen, alle in frontend Ordner eingefügt.">
       <option name="closed" value="true" />
@@ -251,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759384727755</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Das zweite teil des Programms ist fertig. Alles funktioniert.">
+      <option name="closed" value="true" />
+      <created>1759695503601</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759695503601</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +275,7 @@
     <MESSAGE value="Farben für true und false angepasst. Sobald true ist, wird grün umgerammt. Wenn, true dann rot sonst wenn leer ist, dann weiß." />
     <MESSAGE value="Der Programmcode zusammen mit dem Team besprochen und das Team hat mein Code korrigiert." />
     <MESSAGE value="Datenbank angelegt. Entity und Property Ordner erstellt. Pom Datei mit allen Abhängigkeiten versorgt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Datenbank angelegt. Entity und Property Ordner erstellt. Pom Datei mit allen Abhängigkeiten versorgt." />
+    <MESSAGE value="Das zweite teil des Programms ist fertig. Alles funktioniert." />
+    <option name="LAST_COMMIT_MESSAGE" value="Das zweite teil des Programms ist fertig. Alles funktioniert." />
   </component>
 </project>

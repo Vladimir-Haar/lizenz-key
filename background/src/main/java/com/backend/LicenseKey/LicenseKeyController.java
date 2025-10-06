@@ -29,11 +29,10 @@ public class LicenseKeyController {
         this.service = service;
     }
 
-    @GetMapping("/keyPruefenUndSpeichern")
-    public Result pruefenKeyUndServerKey(@RequestParam String newKey) {
+    @PostMapping("/keyPruefenUndSpeichern")
+    public Result pruefenKeyUndServerKey(@RequestBody Map<String, String> body) {
+        String newKey = body.get("newKey");
         return service.getAllKeysAndCompareAndSaveWhileTrue(newKey);
     }
-
-
 
 }

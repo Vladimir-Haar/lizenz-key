@@ -56,7 +56,9 @@ function App() {
     function saveInSqlDatabase() {
 
         fetch(`${_apiSave}?newKey=${encodeURIComponent(key)}`, {
-            method: "GET",
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({newKey: key}),
         })
             .then((res) => {
                 if (!res.ok) throw new Error("Serverfehler");
